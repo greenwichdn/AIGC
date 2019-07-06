@@ -139,3 +139,130 @@
     - rewind
 * goodbye
     - utter_goodbye
+
+## Generated Story -8626403423408256719
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* sign_bad
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye
+
+## Generated Story 1863996916006655645
+* greet
+
+## Generated Story 518197580047895584
+* greet
+    - utter_greet
+* mood_good
+    - utter_ur_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2114043942054320664
+* greet
+    - utter_inquire
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_lifestyle_solution
+* affirm
+    - utter_ask_feedback
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_ask_feedback
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* sign_bad
+    - rewind
+* deny
+    - utter_therapist_solution
+* mood_good
+    - utter_ur_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1249175878033156920
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - rewind
+* affirm
+    - utter_story_solution
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_lifestyle_solution
+* sign_bad
+    - rewind
+* affirm
+    - utter_ask_feedback
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_therapist_solution
+* mood_good
+    - utter_ur_welcome
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4963081734587117792
+* sign_bad
+    - rewind
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_console
+* sign_bad
+    - rewind
+* mood_good
+    - utter_inquire
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_lifestyle_solution
+* sign_bad
+    - rewind
+* affirm
+    - utter_ask_feedback
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* sign_bad
+    - rewind
+* deny
+    - utter_therapist_solution
+* sign_bad
+    - rewind
+* mood_good
+    - utter_ur_welcome
+* sign_bad
+    - rewind
+* goodbye
+    - utter_goodbye
