@@ -4,9 +4,9 @@ $(document).ready(function () {
 	var bot = '<div class="chatCont" id="chatCont">' +
 		'<div class="bot_profile">' +
 		'<img src="logo.png" class="bot_p_img">' +
-		'<div class="close">' +
-		'<i class="fa fa-times" aria-hidden="true"></i>' +
-		'</div>' +
+		//'<div class="close">' +
+		//'<i class="fa fa-times" aria-hidden="true"></i>' +
+		//'</div>' +
 		'</div><!--bot_profile end-->' +
 		'<div id="result_div" class="resultDiv"></div>' +
 		'<div class="chatForm" id="chat-div">' +
@@ -36,13 +36,13 @@ $(document).ready(function () {
 
 	// ------------------------------------------ Toggle chatbot -----------------------------------------------
 	//function to click and open chatbot from icon
-	$('.profile_div').click(function () {
+	//$('.profile_div').click(function () {
 		$('.profile_div').toggle();
 		$('.chatCont').toggle();
 		$('.bot_profile').toggle();
 		$('.chatForm').toggle();
 		document.getElementById('chat-input').focus();
-	});
+	//});
 	
 	//function to click and close chatbot to icon
 	$('.close').click(function () {

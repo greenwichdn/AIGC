@@ -118,6 +118,8 @@ mybot .chatCont {
   border: 1px solid #dcdcdc;
   bottom: 65px;
   right: 0;
+  left: 0;
+  margin: 5% auto;
   background: #efe7dd url("");
   border-top-left-radius: 3px;
   z-index: 10000;
@@ -166,9 +168,9 @@ mybot .bot-txt:focus {
   box-shadow: none;
   border-radius: 0;
   height: 66px;
-  border: 0;
-  border-top: 1px solid #dcdcdc;
-  border-left: 1px solid #dcdcdc;
+  border: 1px solid #dcdcdc;
+  /*border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;*/
 }
 
 mybot .resultDiv .botResult {
