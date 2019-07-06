@@ -1,27 +1,123 @@
-## happy path
+## story1
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+  - utter_inquire
+* mood_bad
+  - utter_story_solution
 * affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
+  - utter_king_story
+  - utter_console
+* thanks
   - utter_goodbye
 
-## say goodbye
+## story2
+* greet
+  - utter_greet
+* mood_good
+  - utter_ur_welcome
 * goodbye
   - utter_goodbye
+
+## story3
+* greet
+  - utter_greet
+* mood_bad
+  - utter_inquire
+* sign_bad
+  - utter_ask_more
+* sign_bad
+  - utter_ask_more
+* sign_bad
+  - utter_ask_more
+* affirm
+  - utter_lifestyle_solution
+* affirm
+  - utter_ask_feedback  
+* mood_bad
+  - utter_story_solution
+* deny
+  - utter_therapist_solution
+* mood_good
+  - utter_ur_welcome      
+* goodbye
+  - utter_goodbye
+
+## story4
+* greet
+  - utter_greet
+* mood_bad
+  - utter_inquire
+* sign_bad
+  - utter_ask_more
+* affirm
+  - utter_story_solution
+  - utter_king_story
+  - utter_ask_feedback  
+* mood_bad
+  - utter_lifestyle_solution
+* affirm
+  - utter_ask_feedback
+* mood_bad
+  - utter_therapist_solution
+  - utter_ask_feedback
+* mood_good
+  - utter_ur_welcome        
+* goodbye
+  - utter_goodbye
+  
+ ## story5
+* greet
+  - utter_greet
+* mood_bad
+  - utter_console
+* mood_good
+  - utter_inquire  
+* sign_bad
+  - utter_ask_more
+* sign_bad
+  - utter_ask_more
+* affirm
+  - utter_lifestyle_solution
+* affirm
+  - utter_ask_feedback  
+* mood_bad
+  - utter_story_solution
+* deny
+  - utter_therapist_solution
+* mood_good
+  - utter_ur_welcome      
+* goodbye
+  - utter_goodbye 
+  
+ ## story6
+* greet
+  - utter_greet
+* mood_bad
+  - utter_inquire
+* mood_bad
+  - utter_ask_more
+* sign_bad
+  - utter_sympathy
+* mood_good
+  - utter_ur_welcome      
+* goodbye
+  - utter_goodbye 
+  
+ ## story7
+* greet
+  - utter_greet
+* mood_bad
+  - utter_inquire
+* sign_bad
+  - utter_sympathy
+* sign_bad
+  - utter_ask_more
+* deny
+  - utter_console
+* sign_bad
+  - utter_lifestyle_solution
+* thanks
+  - utter_ur_welcome    
+* goodbye
+  - utter_goodbye 
+
