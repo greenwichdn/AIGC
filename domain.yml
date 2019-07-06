@@ -3,8 +3,11 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - sign_bad
+  - treat
+  - mood_bad
+  - mood_good
+  - thanks
 
 actions:
 - utter_greet
