@@ -19,8 +19,6 @@ actions:
   - utter_lifestyle_solution
   - utter_respond_bad
   - utter_respond_good
-  - utter_sign_bad
-  - utter_sign_good
   - utter_story_solution
   - utter_sympathy
   - utter_therapist_solution

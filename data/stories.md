@@ -47,7 +47,6 @@
   - utter_ask_more
 * affirm
   - utter_story_solution
-  - utter_king_story
   - utter_ask_feedback  
 * mood_bad
   - utter_lifestyle_solution
