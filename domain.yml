@@ -18,14 +18,15 @@ actions:
 - utter_therapist_solution_ask
 - utter_ur_welcome
 intents:
-- deny
-- mood_good
-- mood_bad
-- greet
-- goodbye
-- sign_bad
-- affirm
 - thanks
+- greet
+- affirm
+- mood_good
+- deny
+- notrelated
+- sign_bad
+- mood_bad
+- goodbye
 templates:
   utter_ask_feedback:
   - text: How do you feel now ?

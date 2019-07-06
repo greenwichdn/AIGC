@@ -266,3 +266,83 @@
     - rewind
 * goodbye
     - utter_goodbye
+
+## Generated Story -5813469001739979197
+* greet
+    - utter_greet
+* mood_good
+    - utter_respond_good
+* goodbye
+    - utter_goodbye
+    - undo
+    - utter_goodbye
+
+## Generated Story -7384625684929249971
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* mood_good
+    - rewind
+* affirm
+    - utter_story_solution
+* mood_good
+    - utter_ask_feedback
+* deny
+    - utter_console
+* mood_good
+    - rewind
+* affirm
+    - utter_ask_more
+* mood_good
+    - rewind
+* affirm
+    - utter_respond_good
+* mood_good
+    - rewind
+* affirm
+    - utter_lifestyle_solution
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8865325883303045829
+* greet
+    - utter_inquire
+    - undo
+    - utter_greet
+* sign_bad
+    - rewind
+* notrelated
+    - utter_default
+* sign_bad
+    - rewind
+* sign_bad
+    - utter_ask_more
+    - undo
+    - utter_respond_bad
+* sign_bad
+    - rewind
+* affirm
+    - utter_inquire
+* sign_bad
+    - utter_console
+* mood_good
+    - rewind
+* affirm
+    - utter_ask_feedback
+* sign_bad
+    - rewind
+* deny
+    - utter_lifestyle_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_ask_feedback
+* mood_good
+    - utter_ur_welcome
+* thanks
+    - utter_goodbye

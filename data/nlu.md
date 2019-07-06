@@ -11,6 +11,13 @@
 - Sound good
 - Sound good
 - that is great
+- I think so.
+- I understand
+- Yes
+- yeah
+- It's okay, I want to talk to someone about it
+- ok
+- I'll try
 
 ## intent:deny
 - Nothing
@@ -21,6 +28,8 @@
 - No, thank you
 - No, I don't feel like it
 - stop, this is not my type
+- no
+- Not so much
 
 ## intent:goodbye
 - See you
@@ -32,6 +41,8 @@
 - See you
 - Yeah, good bye
 - see you my friend
+- Bye then!
+- Ok thanks, bye
 
 ## intent:greet
 - Hi
@@ -46,6 +57,9 @@
 - Hello
 - Greetings
 - anybody home?
+- hi
+- Hey
+- Hi
 
 ## intent:mood_bad
 - I don't know, I just need someone I could talk to
@@ -62,6 +76,7 @@
 - no it did not help me
 - it is so stressful
 - yes but not enough for me
+- I just feel like giving all up
 
 ## intent:mood_good
 - Fine
@@ -80,6 +95,18 @@
 - It's okay
 - thanks for sharing that to me
 - oh that is what i want
+- I'm feeling quite good
+- I think so.
+- nice story
+- I understand
+- Yes
+- yeah
+- ok
+- I'll try
+- I'm feeling better now, thanks
+
+## intent:notrelated
+- There is a bird upon the sky
 
 ## intent:sign_bad
 - My life is a mess
@@ -126,6 +153,14 @@
 - stop, this is not my type
 - oh that is what i want
 - see you my friend
+- I just feel like giving all up
+- No, its getting worse.
+- There is a bird upon the sky
+- I'm not feeling so well
+- I'm not feeling so well
+- It's okay, I want to talk to someone about it
+- Full of stress
+- Not so much
 
 ## intent:thanks
 - Thanks for your help
@@ -134,3 +169,4 @@
 - Thank you very much
 - Thank you, I will try it
 - Thanks for your help
+- thanks
