@@ -1,3 +1,24 @@
+## intent:affirm
+- Sound good
+- Sure
+- Yep, that's all
+- Okay
+- Okay, I'm gonna try it then
+
+## intent:deny
+- Nothing
+- No
+- Not really
+- No, that's it
+- No, I don't feel like it
+- No, thank you
+
+## intent:goodbye
+- See you
+- Bye
+- Yeah, good bye
+- Goodbye
+
 ## intent:greet
 - Hi
 - Hello
@@ -6,7 +27,26 @@
 - Good morning
 - Good afternoon
 
-##intent:sign_bad
+## intent:mood_bad
+- I don't know, I just need someone I could talk to
+- I just feel like giving all up
+- Hi, I'm feeling quite sad
+- It has been bad
+- Nothing exciting
+- I can feel that the stress is there
+
+## intent:mood_good
+- Fine
+- I'm fine
+- Yeah, I guess
+- It's okay
+- Nah it is okay.
+- I'm feeling better already
+- Yeah I suppose
+- I'm fine
+- Yeah you're right
+
+## intent:sign_bad
 - My life is a mess
 - Hi, I'm feeling quite bad
 - I'm going to quit school
@@ -16,50 +56,12 @@
 - A couple of thing like the construction site nearby is too noisy.
 - Kind of, I feel like nobody could understand what I feet and what I thought.
 - My wife keeps yelling at me with my crying baby, so noisy
-- I feel that my parents never wanted to support me 
+- I feel that my parents never wanted to support me
 - I just feel like giving all up
 - I just feel so stressful about my job
 - And the most annoying thing is my boss, aww so stressful
 
-##intent:affirm
-- Sound good
-- Sure
-- Yep, that's all
-- Okay
-- Okay, I'm gonna try it then
-
-##intent:deny
-- Nothing
-- No
-- Not really
-- No, that's it
-- No, I don't feel like it
-- No, thank you
-
-##intent:goodbye
-- See you
-- Bye
-- Yeah, good bye
-- Goodbye
-##intent:mood_bad
-- I don't know, I just need someone I could talk to
-- I just feel like giving all up
-- Hi, I'm feeling quite sad
-- It has been bad
-- Nothing exciting
-- I can feel that the stress is there
-##intent:mood_good
-- Fine
-- I'm fine
-- Yeah, I guess
-- It's okay
-- Nah it is okay. 
-- I'm feeling better already
-- Yeah I suppose
-- I'm fine
-- Yeah you're right
-
-##intent:thanks
+## intent:thanks
 - Thanks for your help
 - Thanks, that's very helpful
 - Yes thank you
