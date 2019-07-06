@@ -4,31 +4,113 @@ intents:
   - affirm
   - deny
   - sign_bad
-  - treat
   - mood_bad
   - mood_good
   - thanks
 
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
+  - utter_ask_more
+  - utter_console
+  - utter_default
+  - utter_goodbye
+  - utter_greet
+  - utter_inquire
+  - utter_king_story
+  - utter_lifestyle_solution
+  - utter_respond_bad
+  - utter_respond_good
+  - utter_sign_bad
+  - utter_sign_good
+  - utter_story_solution
+  - utter_sympathy
+  - utter_therapist_solution
+  - utter_therapist_solution_ask
 
 templates:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
+utter_ask_more:
+  - text: Is there anything else that bothers you?
+  - text: And what else?
+  - text: That is so bad. is there anything besides those ?
+  - text: I know that gloomy feelings. and is that the last one ?
+  - text: Are there anything else that you wanted to talk about?
+  - text: Does this help you get better ?
+  - text: How do you feel now ?
+  - text: Is it better now ?
+  - text: Now are you a little more satisfied?
+  - text: Are there anything else that you wanted to talk about?
+utter_console:
+  - text: Everything is temporary and fleeting; if nothing is ok in your life, it still passes; everyday will be different, you just have to pull through.
+  - text: Sometimes, people gets tough, doesn't mean that they don't care about you. Maybe they just choose a wrong way to express it.
+  - text: I'm sure there are people around you (families, friends that love you.)
+  - text: But they may just not express their care to you the way you expected.
+  - text: But they still love you nonetheless
+utter_default:
+  - text: Hmm i cant get what you mean, can you say it again ?
+utter_goodbye:
+  - text: It is so nice to meet you.
+  - text: Hope to see you again
+  - text: Have a nice day my friend
+  - text: I'm always here to listen!
+  - text: Byeee~
+utter_greet:
+  - text: Hi
+  - text: Hello
+  - text: Hi there
+  - text: Greetings
+  - text: Good morning
+  - text: Oh hello my friend, how are you doing ?
+  - text: Good Afternoon
+  - text: Hey,how is your day ?
+  - text: Hi, how are you feeling?
+utter_inquire:
+  - text: Can you tell me what is bothering you now?
+  - text: Hey, how is your day ?
+  - text: How are you feeling today?
+  - text: That's alright, may I ask what is bothering you right now?
+  - text: So what is your annoyance right now ?
+  - text: So what is exactly making your day blue ?
+  - text: Would you like to share about it? What makes you feel bad?
+utter_king_story:
+  - text: Once there was a king. He tasked one of his minister to find something that makes A sad person becomes happy and a happy person becomes sad upon seeing it.
+          After months of finding dilligently, the minister couldn't find anything as such.
+          One day, in wandering the street, in desperation, the minister turned to a silversmith.
+          The silversmith smiled, took out a ring with an engraving on it and gave it to the minister.
+          Upon inspection, the minister's face lit up and he let out a relaxed smile.
+          The next day, he presented the ring to the smirking king.
+          Everyone at the hall just noticed the king look at the ring, look around and his smile gradually disappeareared, he felt sad.
+          Engraved on the ring was 4 words This-Too-Shall-Pass.
+utter_lifestyle_solution:
+  - text: Okay then how about watching a comedy show, do you know "Friends" TV show?
+          Try to watch 1 episode to see if it helps
+  - text: Hey, treating yourself to a good meal is a good stress reducer.
+          Have you ever tried "poke", it's a Hawaiian dish and really balance, I think for you next meal you should try it.
+utter_respond_bad:
+  - text: Oops sorry to bother you this moment.
+  - text: Is it that bad?
+          I understand that you are facing too much pressure right now.
+          Just know that I'm always here if you want to talk.
+utter_respond_good:
+  - text: It is so pleased to hear that.
+  - text: You're welcome
+  - text: Im so pleased to hear that
+  - text: No worries
+  - text: It's my pleasure to help.
+utter_sign_bad:
+  - text: Based on your sign, i think you are suffering depression
+utter_sign_good:
+  - text: Based on your sign, i think you are just upset about life.
+utter_story_solution:
+  - text: Oh, can I entertain you with a story then?
+  - text: May I entertain you with a story to relieve the mood then?
+  - text: Can I entertain you with a story then?
+utter_sympathy:
+  - text: oh it is so pity to hear that from you.
+utter_therapist_solution:
+  - text: Have you ever tried to talk to somebody
+  - text: Then I have a really good listener that I can refer you to. He's Dr.Who, certified therapis, you can reach him at 0918 696969
+utter_therapist_solution_ask:
+  - text: Did you try to talk to someone else?
+utter_ur_welcome:
+  - text: You are welcome!
+  - text: It's my pleasure to help.
+  - text: It is a pealusre of mine to see you being happy
