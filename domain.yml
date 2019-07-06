@@ -25,6 +25,8 @@ actions:
   - utter_sympathy
   - utter_therapist_solution
   - utter_therapist_solution_ask
+  - utter_ur_welcome
+  - utter_ask_feedback
 
 templates:
   utter_ask_more:
@@ -114,3 +116,8 @@ templates:
   - text: "You are welcome!"
   - text: "It's my pleasure to help."
   - text: "It is a pleasure of mine to see you being happy"
+  utter_ask_feedback:
+  - text: "How do you feel now ?"
+  - text: "Is it better now ?"
+  - text: "Now are you a little more satisfied?"
+  - text: "Does this help you get better ? "
