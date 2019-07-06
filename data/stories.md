@@ -1,11 +1,9 @@
 ## story1
 * greet
-  - utter_greet
   - utter_inquire
 * mood_bad
   - utter_story_solution
 * affirm
-  - utter_king_story
   - utter_console
 * thanks
   - utter_goodbye
@@ -20,8 +18,6 @@
 
 ## story3
 * greet
-  - utter_greet
-* mood_bad
   - utter_inquire
 * sign_bad
   - utter_ask_more
@@ -44,9 +40,9 @@
 
 ## story4
 * greet
-  - utter_greet
-* mood_bad
   - utter_inquire
+* mood_bad
+  - utter_ask_more
 * sign_bad
   - utter_ask_more
 * affirm
@@ -67,7 +63,7 @@
   
  ## story5
 * greet
-  - utter_greet
+  - utter_inquire
 * mood_bad
   - utter_console
 * mood_good

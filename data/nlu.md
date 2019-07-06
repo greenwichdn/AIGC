@@ -42,19 +42,12 @@
 - Yeah, good bye
 - Goodbye
 ##intent:mood_bad
-- Not too good
-- It reduces a bit but still here
-- It works but I want the complete deletion
 - I don't know, I just need someone I could talk to
 - I just feel like giving all up
-- Not so great
 - Hi, I'm feeling quite sad
-- Not too well
-- It hasn't been good
+- It has been bad
 - Nothing exciting
-- A little better but not much
-- Not really good
-- I can feel that the stress is still there
+- I can feel that the stress is there
 ##intent:mood_good
 - Fine
 - I'm fine
@@ -62,10 +55,8 @@
 - It's okay
 - Nah it is okay. 
 - I'm feeling better already
-- Oh yes Im no longer in that mood. 
-- I didn't tried, maybe I should try it later
 - Yeah I suppose
-- I'm fine thank you and you?
+- I'm fine
 - Yeah you're right
 
 ##intent:thanks

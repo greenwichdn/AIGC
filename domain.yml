@@ -9,11 +9,11 @@ intents:
   - thanks
 
 actions:
+  - utter_greet
   - utter_ask_more
   - utter_console
   - utter_default
   - utter_goodbye
-  - utter_greet
   - utter_inquire
   - utter_king_story
   - utter_lifestyle_solution
@@ -59,22 +59,16 @@ templates:
   - text: "Hello"
   - text: "Hi there"
   - text: "Greetings"
-  - text: "Good morning"
-  - text: "Oh hello my friend, how are you doing ?"
-  - text: "Good Afternoon"
-  - text: "Hey,how is your day ?"
-  - text: "Hi, how are you feeling?"
   utter_inquire:
   - text: "Can you tell me what is bothering you now?"
   - text: "Hey, how is your day ?"
   - text: "How are you feeling today?"
-  - text: "That's alright, may I ask what is bothering you right now?"
-  - text: "So what is your annoyance right now ?"
+  - text: "May I ask what is bothering you right now?"
   - text: "So what is exactly making your day blue ?"
-  - text: "Would you like to share about it? What makes you feel bad?"
-  utter_king_story:
-  - text: "Once there was a king. He tasked one of his minister to find something that makes A sad person becomes happy and a happy person becomes sad upon seeing it.
-          After months of finding dilligently, the minister couldn't find anything as such.
+  utter_story_solution:
+  - text: "May I entertain you with a story to relieve the mood then?
+          Once there was a king. He tasked one of his minister to find something that makes A sad person becomes happy and a happy person becomes sad upon seeing it.
+          After months of finding diligently, the minister couldn't find anything as such.
           One day, in wandering the street, in desperation, the minister turned to a silversmith.
           The silversmith smiled, took out a ring with an engraving on it and gave it to the minister.
           Upon inspection, the minister's face lit up and he let out a relaxed smile.
@@ -92,19 +86,7 @@ templates:
           I understand that you are facing too much pressure right now.
           Just know that I'm always here if you want to talk."
   utter_respond_good:
-  - text: "It is so pleased to hear that."
-  - text: "You're welcome"
   - text: "Im so pleased to hear that"
-  - text: "No worries"
-  - text: "It's my pleasure to help."
-  utter_sign_bad:
-  - text: "Based on your sign, i think you are suffering depression"
-  utter_sign_good:
-  - text: "Based on your sign, i think you are just upset about life."
-  utter_story_solution:
-  - text: "Oh, can I entertain you with a story then?"
-  - text: "May I entertain you with a story to relieve the mood then?"
-  - text: "Can I entertain you with a story then?"
   utter_sympathy:
   - text: "oh it is so pity to hear that from you."
   utter_therapist_solution:
