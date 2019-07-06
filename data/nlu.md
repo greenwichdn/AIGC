@@ -14,7 +14,7 @@
 - That doesn't help much
 - I feel tired when being asked by people.
 - A couple of thing like the construction site nearby is too noisy.
-- Kind of, I feel like nobody could undersand what I feet and what I thought.
+- Kind of, I feel like nobody could understand what I feet and what I thought.
 - My wife keeps yelling at me with my crying baby, so noisy
 - I feel that my parents never wanted to support me 
 - I just feel like giving all up
