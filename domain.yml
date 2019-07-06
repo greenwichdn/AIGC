@@ -18,13 +18,13 @@ actions:
 - utter_therapist_solution_ask
 - utter_ur_welcome
 intents:
-- greet
 - goodbye
-- affirm
-- deny
+- greet
 - sign_bad
-- mood_bad
+- affirm
 - mood_good
+- deny
+- mood_bad
 - thanks
 templates:
   utter_ask_feedback:

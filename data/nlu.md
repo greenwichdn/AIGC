@@ -4,6 +4,8 @@
 - Yep, that's all
 - Okay
 - Okay, I'm gonna try it then
+- Sure
+- Okay, I'm gonna try it then
 
 ## intent:deny
 - Nothing
@@ -18,14 +20,15 @@
 - Bye
 - Yeah, good bye
 - Goodbye
+- Goodbye
 
 ## intent:greet
 - Hi
 - Hello
 - Hi there
 - Greetings
-- Good morning
-- Good afternoon
+- hi
+- Goodbye
 
 ## intent:mood_bad
 - I don't know, I just need someone I could talk to
@@ -45,6 +48,8 @@
 - Yeah I suppose
 - I'm fine
 - Yeah you're right
+- Sure
+- I'm feeling better already
 
 ## intent:sign_bad
 - My life is a mess
@@ -60,6 +65,10 @@
 - I just feel like giving all up
 - I just feel so stressful about my job
 - And the most annoying thing is my boss, aww so stressful
+- My life is a mess
+- I feel that my parents never wanted to support me
+- I just feel so stressful about my job
+- Okay, I'm gonna try it then
 
 ## intent:thanks
 - Thanks for your help

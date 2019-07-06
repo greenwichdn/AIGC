@@ -115,3 +115,27 @@
   - utter_ur_welcome    
 * goodbye
   - utter_goodbye 
+
+## Generated Story 2486561762565692391
+* greet
+    - utter_inquire
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_ask_more
+* sign_bad
+    - utter_console
+* mood_good
+    - rewind
+* affirm
+    - utter_lifestyle_solution
+* sign_bad
+    - rewind
+* affirm
+    - utter_ask_feedback
+* mood_good
+    - utter_respond_good
+* greet
+    - rewind
+* goodbye
+    - utter_goodbye
