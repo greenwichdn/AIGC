@@ -8,7 +8,6 @@ actions:
 - utter_goodbye
 - utter_greet
 - utter_inquire
-- utter_king_story
 - utter_lifestyle_solution
 - utter_respond_bad
 - utter_respond_good
