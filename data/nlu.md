@@ -18,6 +18,8 @@
 - It's okay, I want to talk to someone about it
 - ok
 - I'll try
+- It's okay
+- I'll try
 
 ## intent:deny
 - Nothing
@@ -60,6 +62,9 @@
 - hi
 - Hey
 - Hi
+- hi
+- hi
+- hi
 
 ## intent:mood_bad
 - I don't know, I just need someone I could talk to
@@ -76,6 +81,7 @@
 - no it did not help me
 - it is so stressful
 - yes but not enough for me
+- I just feel like giving all up
 - I just feel like giving all up
 
 ## intent:mood_good
@@ -104,6 +110,8 @@
 - ok
 - I'll try
 - I'm feeling better now, thanks
+- I'll try
+- I'm feeling better
 
 ## intent:notrelated
 - There is a bird upon the sky
@@ -161,6 +169,8 @@
 - It's okay, I want to talk to someone about it
 - Full of stress
 - Not so much
+- I'm having depression
+- I just feel like giving all up
 
 ## intent:thanks
 - Thanks for your help
@@ -170,3 +180,4 @@
 - Thank you, I will try it
 - Thanks for your help
 - thanks
+- Thanks

@@ -346,3 +346,31 @@
     - utter_ur_welcome
 * thanks
     - utter_goodbye
+
+## Generated Story -3297386736729364754
+* greet
+    - utter_inquire
+* sign_bad
+    - utter_sympathy
+* affirm
+    - utter_ask_more
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_lifestyle_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_ask_feedback
+* mood_good
+    - utter_ur_welcome
+* thanks
+    - utter_goodbye
+
+## Generated Story 1636301010733570825
+* greet
+    - utter_greet
+
+## Generated Story 1277093566737562050
+* greet
+    - utter_inquire
