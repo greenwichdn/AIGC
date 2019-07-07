@@ -374,3 +374,19 @@
 ## Generated Story 1277093566737562050
 * greet
     - utter_inquire
+
+## Generated Story -849790299874380336
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye

@@ -17,11 +17,11 @@ actions:
 - utter_therapist_solution_ask
 - utter_ur_welcome
 intents:
-- greet
+- mood_good
 - affirm
+- greet
 - sign_bad
 - mood_bad
-- mood_good
 - thanks
 - deny
 - goodbye
