@@ -8,114 +8,6 @@
 * thanks
   - utter_goodbye
 
-## story2
-* greet
-  - utter_greet
-* mood_good
-  - utter_ur_welcome
-* goodbye
-  - utter_goodbye
-
-## story3
-* greet
-  - utter_inquire
-* sign_bad
-  - utter_ask_more
-* sign_bad
-  - utter_ask_more
-* sign_bad
-  - utter_ask_more
-* affirm
-  - utter_lifestyle_solution
-* affirm
-  - utter_ask_feedback  
-* mood_bad
-  - utter_story_solution
-* deny
-  - utter_therapist_solution
-* mood_good
-  - utter_ur_welcome      
-* goodbye
-  - utter_goodbye
-
-## story4
-* greet
-  - utter_inquire
-* mood_bad
-  - utter_ask_more
-* sign_bad
-  - utter_ask_more
-* affirm
-  - utter_story_solution
-  - utter_ask_feedback  
-* mood_bad
-  - utter_lifestyle_solution
-* affirm
-  - utter_ask_feedback
-* mood_bad
-  - utter_therapist_solution
-  - utter_ask_feedback
-* mood_good
-  - utter_ur_welcome        
-* goodbye
-  - utter_goodbye
-  
- ## story5
-* greet
-  - utter_inquire
-* mood_bad
-  - utter_console
-* mood_good
-  - utter_inquire  
-* sign_bad
-  - utter_ask_more
-* sign_bad
-  - utter_ask_more
-* affirm
-  - utter_lifestyle_solution
-* affirm
-  - utter_ask_feedback  
-* mood_bad
-  - utter_story_solution
-* deny
-  - utter_therapist_solution
-* mood_good
-  - utter_ur_welcome      
-* goodbye
-  - utter_goodbye 
-  
- ## story6
-* greet
-  - utter_greet
-* mood_bad
-  - utter_inquire
-* mood_bad
-  - utter_ask_more
-* sign_bad
-  - utter_sympathy
-* mood_good
-  - utter_ur_welcome      
-* goodbye
-  - utter_goodbye 
-  
- ## story7
-* greet
-  - utter_greet
-* mood_bad
-  - utter_inquire
-* sign_bad
-  - utter_sympathy
-* sign_bad
-  - utter_ask_more
-* deny
-  - utter_console
-* sign_bad
-  - utter_lifestyle_solution
-* thanks
-  - utter_ur_welcome    
-* goodbye
-  - utter_goodbye 
-
 ## Generated Story 2486561762565692391
 * greet
     - utter_inquire
@@ -376,6 +268,70 @@
     - utter_inquire
 
 ## Generated Story -849790299874380336
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye
+
+## Generated Story 1112505066360245225
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye
+
+## Generated Story 3198028748232726092
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye
+
+## Generated Story -749130451986148736
+* greet
+    - utter_inquire
+* sign_bad
+    - rewind
+* mood_bad
+    - utter_story_solution
+* mood_good
+    - rewind
+* affirm
+    - utter_console
+* sign_bad
+    - rewind
+* thanks
+    - utter_goodbye
+
+## Generated Story -120472715086224853
 * greet
     - utter_inquire
 * sign_bad

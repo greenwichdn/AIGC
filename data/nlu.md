@@ -21,6 +21,10 @@
 - It's okay
 - I'll try
 - it's okay
+- It's okay
+- It’s okay
+- It’s okay
+- It’s okay
 
 ## intent:deny
 - Nothing
@@ -67,6 +71,11 @@
 - hi
 - hi
 - hello
+- Hi
+- Hi
+- Hi
+- Hi
+- Hi
 
 ## intent:mood_bad
 - I don't know, I just need someone I could talk to
@@ -83,6 +92,10 @@
 - no it did not help me
 - it is so stressful
 - yes but not enough for me
+- I just feel like giving all up
+- I just feel like giving all up
+- I just feel like giving all up
+- I just feel like giving all up
 - I just feel like giving all up
 - I just feel like giving all up
 - I just feel like giving all up
@@ -116,6 +129,10 @@
 - I'll try
 - I'm feeling better
 - it's okay
+- It's okay
+- It’s okay
+- It’s okay
+- It’s okay
 
 ## intent:notrelated
 - There is a bird upon the sky
@@ -173,8 +190,12 @@
 - It's okay, I want to talk to someone about it
 - Full of stress
 - Not so much
-- I'm having depression
 - I just feel like giving all up
+- Thanks for your help
+- I just feel like giving all up
+- Thanks for your help
+- I just feel like giving all up
+- Thanks for your help
 - I just feel like giving all up
 - Thanks for your help
 
@@ -187,4 +208,8 @@
 - Thanks for your help
 - thanks
 - Thanks
+- Thanks for your help
+- Thanks for your help
+- Thanks for your help
+- Thanks for your help
 - Thanks for your help

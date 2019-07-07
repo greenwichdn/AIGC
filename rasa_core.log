@@ -99,3 +99,83 @@ KeyboardInterrupt
 /model/train                                       POST                           train
 /model                                             DELETE                         unload_model
 /version                                           GET                            version
+2019-07-07 09:47:33,568 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id>/messages          POST                           add_message
+/conversations/<conversation_id>/tracker/events    POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id>/execute           POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id>/predict           POST                           predict
+/conversations/<conversation_id>/tracker/events    PUT                            replace_events
+/conversations/<conversation_id>/story             GET                            retrieve_story
+/conversations/<conversation_id>/tracker           GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2019-07-07 09:49:44,816 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "d:\python\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "d:\python\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "d:\python\lib\asyncio\base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "d:\python\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "d:\python\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "d:\python\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-07-07 09:52:07,569 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id>/messages          POST                           add_message
+/conversations/<conversation_id>/tracker/events    POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id>/execute           POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id>/predict           POST                           predict
+/conversations/<conversation_id>/tracker/events    PUT                            replace_events
+/conversations/<conversation_id>/story             GET                            retrieve_story
+/conversations/<conversation_id>/tracker           GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2019-07-07 09:54:39,634 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "d:\python\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "d:\python\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "d:\python\lib\asyncio\base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "d:\python\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "d:\python\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "d:\python\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
